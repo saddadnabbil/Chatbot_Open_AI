@@ -37,7 +37,7 @@ io.on("connection", function (socket) {
       frequency_penalty: 0,
       presence_penalty: 0,
       max_tokens: 256,
-      stop: ["Human:", "AI:", "Human:", "AI:"],
+      // stop: ["Human:", "AI:", "Human:", "AI:"],
     });
 
     response
